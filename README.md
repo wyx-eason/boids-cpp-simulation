@@ -26,7 +26,7 @@ This project uses CMake's `FetchContent` to automatically download and staticall
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/wyx-eason/boids-cpp-simulation.git](https://github.com/wyx-eason/boids-cpp-simulation.git)
+git clone https://github.com/wyx-eason/boids-cpp-simulation.git
 cd boids-cpp-simulation
 
 # 2. Generate build files
