@@ -26,7 +26,7 @@ This project uses CMake's `FetchContent` to automatically download and staticall
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/wyx-eason/boids-cpp-simulation.git
+git clone [https://github.com/wyx-eason/boids-cpp-simulation.git](https://github.com/wyx-eason/boids-cpp-simulation.git)
 cd boids-cpp-simulation
 
 # 2. Generate build files
@@ -37,6 +37,8 @@ cmake --build build --config Release
 
 # 4. Run the executable (Windows)
 ./build/bin/Release/cgame.exe
+```
+
 🧠 Architecture Notes
 While the current mathematical complexity for the neighborhood search is O(N^2), the data layout is specifically designed to be highly cache-friendly to brute-force the performance bottleneck.
 
