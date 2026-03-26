@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmake --build . --config Release)",
+      "Bash(cmake ..)",
+      "Bash(taskkill //F //IM cgame.exe)"
+    ]
+  }
+}
